@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Oswald&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Oswald&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Readex+Pro:wght@700&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Passion+One&family=Readex+Pro:wght@700&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display: flex;
+    border: solid 2px red;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(265deg, #ffb1efbd 0, #ffa8f3bf 12.5%, #ff9ff7b5 25%, #ff96fba8 37.5%, #ee8effb0 50%, #d687ffad 62.5%, #bb83ffa6 75%, #9b80ffa3 87.5%, #8690ff96 100%);
+    font-family: 'Readex Pro', sans-serif;
+    height: 111px;
+    width: 100%;
+    top: 0px;
+    
+}
+
+#logo{
+    width:20%px;
+    height: 110px;
+    /*padding-left: 30px;*/
+    border: solid 2px green;
+    
+}
+
+header .datos-logo{
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+.titulo {
+  /*font-size: 45px;*/
+
+   margin-left: 5px;
+   font-size: 50px;
+   margin-top: 10px;
+   margin-bottom: 0;
+   color: black;
+   text-shadow: rgb(112 95 95 / 58%) -3px -2px;
+}
+
+h3{
+    margin-top: 0px;
+    padding-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+
+/*Codigo de menú desplegable*/
+/*nav{
+    margin:auto;
+    
+    margin-right: 0%;
+}*/
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:19px;
+    }
+          
+nav li{
+    transition: all 0.4s block;
+    display:inline-block;
+    width:210px;
+    height:40px;
+    padding:10px 10px;
+    padding-right: 0px;
+    text-align:right;
+    color:#fff;
+    position:relative;
+    
+}
+nav li li{
+    
+    top: -21px;
+    left: 0;
+    right: 0;
+  background-color:#a7aae1eb;
+  border:1px solid #a7aae1eb;
+}
+          
+nav li:hover{
+    color: rgb(247, 113, 247);
+    }
+          
+nav li>ul{
+    border: solid 2px green;
+    padding: 0px;
+  margin:0;
+  display:none;
+    }
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    z-index: 1;
+    top:110px;
+    left:0px;
+}
+
+nav img{
+    height: 75px;
+  width: 75px;
+  
+}
+
+nav > ul{
+    border: solid 2px green;
+    
+margin:0;
+padding: 0;
+
+}
+
+/*codigos de la pagina de libro*/
+
+figure{
+    margin: 0%;
+}
+
+figure img{
+    
+    position: sticky;
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+}
+
+section{
+    position: relative;
+}
+
+.rectangulo{
+    display: flex;
+    border: none;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(265deg, #ffb1efbd 0, #ffa8f3bf 12.5%, #ff9ff7b5 25%, #ff96fba8 37.5%, #ee8effb0 50%, #d687ffad 62.5%, #bb83ffa6 75%, #9b80ffa3 87.5%, #8690ff96 100%);
+    height: 60px;
+    width: 100%;
+    top: -63px;
+    position: absolute;
+    z-index: 1;
+    color: yellow;
+    font-size: 50px;
+  
+}
+.icons-stars{
+    display: flex;
+    border: none;
+    margin:0;
+    padding:0;
+    top: auto;
+    position: absolute;
+    left: 40%;
+}
+
+/*.caracteristicas{
+    display: flex;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    z-index: 2;
+    color: black;
+    font-size: 80px;
+    justify-content: center;
+}*/
+
+.caracteristicas{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  z-index: 2;
+}
+
+.caracteristicas div{
+width: 110px;
+margin: 10px;
+text-align:center;
+line-height: 70px;
+font-size: 50px;
+}
+
+.caracteristicas p{
+text-align:center;
+font-size: 20px;
+}
+
+/*.iconos{
+    display: flex;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    top: 50%;
+    position: absolute;
+    left: 40%;
+    margin-left: 80%;
+    margin-right: 80%;
+    
+}*/
+
+.imagen2{
+    display: flex;
+    margin:0;
+    padding:0;
+    
+    top: -180px;
+    left: 70px;
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.imagen2 img{
+    width: 200px;
+    height: 280px;
+    border-radius: 3%;
+}
+
+details{
+    padding: 15px;
+    
+}
+
+summary{
+    font-size: 40px  ;
+    color: #8690ff;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items:center;
+    z-index: 2;
+}
+
+.book{
+    font-size: 25px 
+}
+

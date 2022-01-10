@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Oswald&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Oswald&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@700&family=Oswald:wght@200&family=Passion+One&family=Readex+Pro:wght@700&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Monoton&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Passion+One&family=Readex+Pro:wght@700&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Arima+Madurai:wght@100&family=Fjalla+One&family=Holtwood+One+SC&family=Magra&family=Monoton&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Passion+One&family=Readex+Pro:wght@700&family=Roboto+Mono:wght@200;400&family=Sigmar+One&family=Titan+One&family=Truculenta:wght@100&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display: flex;
+    border: solid 2px red;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(265deg, #ffb1ef 0, #ffa8f3 12.5%, #ff9ff7 25%, #ff96fb 37.5%, #ee8eff 50%, #d687ff 62.5%, #bb83ff 75%, #9b80ff 87.5%, #8690ff 100%);
+    font-family: 'Readex Pro', sans-serif;
+    height: 111px;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+}
+
+#header-01{
+    display: flex;
+    border: solid 2px red;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(265deg, #ffb1efbd 0, #ffa8f3bf 12.5%, #ff9ff7b5 25%, #ff96fba8 37.5%, #ee8effb0 50%, #d687ffad 62.5%, #bb83ffa6 75%, #9b80ffa3 87.5%, #8690ff96 100%);
+    font-family: 'Readex Pro', sans-serif;
+    height: 111px;
+    width: 100%;
+    top: 0px;
+}
+
+#logo{
+    width:20%px;
+    height: 110px;
+    /*padding-left: 30px;*/
+    border: solid 2px green;
+    
+}
+
+header .datos-logo{
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+.titulo {
+  /*font-size: 45px;*/
+
+   margin-left: 5px;
+   font-size: 50px;
+   margin-top: 10px;
+   margin-bottom: 0;
+   color: black;
+   text-shadow: rgb(112 95 95 / 58%) -3px -2px;
+}
+
+h3{
+    margin-top: 0px;
+    padding-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+
+/*Codigo de menú desplegable*/
+/*nav{
+    margin:auto;
+    
+    margin-right: 0%;
+}*/
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:19px;
+    }
+          
+nav li{
+    transition: all 0.4s block;
+    display:inline-block;
+    width:210px;
+    height:40px;
+    padding:10px 10px;
+    padding-right: 0px;
+    text-align:right;
+    color:#fff;
+    position:relative;
+    
+}
+nav li li{
+    
+    top: -21px;
+    left: 0;
+    right: 0;
+  background-color:#a7aae1eb;
+  border:1px solid #a7aae1eb;
+}
+          
+nav li:hover{
+    color: rgb(247, 113, 247);
+    }
+          
+nav li>ul{
+    border: solid 2px green;
+    padding: 0px;
+  margin:0;
+  display:none;
+    }
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    z-index: 1;
+    top:110px;
+    left:0px;
+}
+
+nav img{
+    height: 75px;
+  width: 75px;
+  
+}
+
+nav > ul{
+    border: solid 2px green;
+    
+margin:0;
+padding: 0;
+
+}
+
+/*Fin -- CSS de header completo*/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+
+
+
+/*CSS de Carrusel*/
+/****************************************************************************/
+/****************************************************************************/
+/****************************************************************************/
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1355px; /*Cambia el tamaño del carrusel*/
+    padding: 0px;
+    position: static;
+    margin: 0px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(223, 167, 240);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #9252f8;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.subtitulo-1{
+    font-family: 'Amatic SC';
+    text-align: center;
+    color: #C4A0DB;
+    font-size: 60px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.barra {
+    background-color: #A7AAE1;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .barra div {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  
+/*Codigo de las peliculas*/
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    background-color: violet;
+    position:relative;
+    overflow: hidden;
+}
+
+
+.movie img{
+    width:100%;
+}
+
+.movie-info{
+    color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+    margin-top: 0;
+}
+
+.movie-info span{
+    background-color: rgb(151, 122, 255);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green{
+    color:rgb(255, 251, 251);
+}
+
+.movie-info span.orange{
+    color:orange;
+}
+
+.movie-info span.red{
+    color:red;
+}
+
+.overview{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgb(186, 135, 252);
+    padding: 1rem;
+    max-height: 100%;
+    transform:translateY(101%);
+    transition:transform 0.3s ease-in;
+}
+
+.movie:hover .overview{
+    transform:translateY(0)
+}
+
+/*Footer*/
+
+  .pieDePagina {
+    display: flex;
+    border: solid 2px red;
+    margin-top: 100px;
+    padding: 0px;
+    background-color: #C4A0DB;
+    font-family: 'Oswald', sans-serif;
+    height: 270px;
+  }
+
+  #pieDePaginaBy04 {
+    display: flex;
+    border: solid 2px red;
+    padding: 0px;
+    background-color: #C4A0DB;
+    font-family: 'Oswald', sans-serif;
+    height: 270px;
+  }
+
+  #pieDePaginaBy04  img{
+    margin-top: 15px;
+    margin-left: 210px;
+    padding:0;
+    width:380px;
+    height: 240px;
+    border: solid 2px green;
+    
+}
+
+  .pieDePagina img{
+    margin-top: 15px;
+    margin-left: 210px;
+    padding:0;
+    width:380px;
+    height: 240px;
+    border: solid 2px green;
+    
+}
+
+  .titulo-2 {
+   margin-left: 0px;
+   font-size: 100px;
+   margin-top: 55px;
+   margin-bottom: 0;
+   color: black;
+}
+
+.footer {
+    
+    max-width: 1728px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer{
+    display: block;
+}
+
+.grid {
+    display: grid;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer_content{
+    border: 5px solid black;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "links social";
+    padding: 10px 0px 0px;
+    display: grid;
+}
+
+.footer_content_links {
+    margin: 20px 0;
+    justify-self: center;
+    grid-area: links;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.footer_content_link{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: #18242e;
+    display: block;
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+
+.footer_content_link:first-child {
+    margin-top: 0;
+}
+
+.footer_content_link a {
+    transition: color .3s ease;
+}
+
+.footer__content__social {
+    grid-area: social;
+    display: flex;
+    -moz-column-gap: 12px;
+    column-gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__content__social__button {
+    width: 60px;
+    height: 60px;
+}
+
+#footer-p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 20px;
+}
+
+/*Codigos de la pagina 04 y 05*/
+/*List of code for the cines*/
+#places{
+    font-size: 42px;
+    padding-left: 90px;
+    text-align: left;
+    font-family: 'Magra', sans-serif;
+}
+
+#places-2{
+    font-size: 42px;
+    padding-left: 90px;
+    text-align: left;
+    margin-top: 0%;
+    font-family: 'Magra', sans-serif;
+}
+
+#description{
+    font-family: 'Open Sans Condensed', sans-serif;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left: 90px;
+margin-right: 10px;
+font-size: 28px;
+}
+
+.cinemas-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.place-cine{
+    width: 350px;
+    margin:2rem;
+    overflow: hidden;
+
+}
+
+.place-cine img {
+    width: 100%;
+    height: 50%;
+}
+
+#cinemark{
+    width: 100%;
+    height: 32%;
+}
+
+.places-information{
+    align-items: center;
+    
+}
+
+.sucursal{
+    font-family: 'Magra', sans-serif;
+    margin-bottom: 0%;
+    margin-top: 6px;
+    padding-left: 0px;
+}
+
+#direction-cine{
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.cines{
+    font-family: 'Amatic SC';
+    text-align: center;
+    color: black;
+    font-size: 90px;
+    padding: 10px;
+    margin: 0%;
+}
+
+/*librerias list*/
+
+#description-02{
+    font-family: 'Open Sans Condensed', sans-serif;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left: 90px;
+margin-right: 40px;
+font-size: 28px;
+}
+
+.librerias-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.place-librerias{
+    width: 350px;
+    margin:2rem;
+    overflow: hidden;
+}
+
+.place-librerias img {
+    width: 100%;
+    height: 48%;
+}
+
+#ibero{
+    width: 100%;
+    height: 55%;
+}
+
+#direction-librerias{
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.librerias{
+    font-family: 'Amatic SC';
+    text-align: center;
+    color: black;
+    font-size: 90px;
+    padding: 10px;
+    margin: 0%;
+}
+
+/*Codigos de pagina numero 06*/
+
+.actualizaciones{
+    font-size: 33px;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Magra', sans-serif;
+}
+
+.actualizaciones02{
+    font-size: 33px;
+    padding-left: 50px;
+    text-align: left;
+    font-family: 'Magra', sans-serif;
+    margin-top: 55px;
+}
+
+.container_book01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    background-image: linear-gradient(265deg, #ffb1ef 0, #ffa8f3 12.5%, #ff9ff7 25%, #ff96fb 37.5%, #ee8eff 50%, #d687ff 62.5%, #bb83ff 75%, #9b80ff 87.5%, #8690ff 100%);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    height: 285px;
+}
+
+.Libro-01 img{
+    border: white 8px solid;
+    text-align: left;
+    margin-left: 25px;
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+}
+
+.Libro-02 img{
+    border: white 8px solid;
+    text-align: left;
+    margin-left: 25px;
+    width: 31%;
+    height: 71%;
+    margin-top: 20px;
+}
+
+.Libro-03 img{
+    border: rgb(255, 141, 255) 8px solid;
+    text-align: left;
+    margin-left: 25px;
+    width: 56.6%;
+    height: 69%;
+    margin-top: 20px;
+}
+
+.Libro-04 img{
+    border: rgb(255, 141, 255) 8px solid;
+    text-align: left;
+    margin-left: 25px;
+    width: 21.5%;
+    height: 73.5%;
+    margin-top: 20px;
+}
+
+.container-actualizaciones{
+    position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 240px;
+}
+
+#namebook{
+    font-size: 26px;
+    margin-top: 14px;
+    margin-bottom: 9px;
+}
+
+.information-book{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+}
+
+#information-book03{
+    margin-right: 2rem;
+}
+
+#information-book02{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.synopsis-book{
+    margin-right: 60px;
+    margin-top: 55px;
+    font-size: 25px;
+}
+
+/*Codigos de pagina numero 07*/
+
+h2{
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Amatic SC';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.imagen07{
+    text-align: left;
+    margin-left: 24px;
+}
+
+#text{
+    display: flex;
+    align-items: right;
+    margin-top: 0%;
+    margin-bottom: 38px;
+}
+
+.containers-p{
+    left:0;
+    right:0;
+    position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 540px;
+    font-size: 27.5px;
+}
+
