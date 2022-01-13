@@ -21,7 +21,7 @@ body{
 }
 header{
     display: flex;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     margin:0;
     padding:0;
     background-image: linear-gradient(265deg, #ffb1ef 0, #ffa8f3 12.5%, #ff9ff7 25%, #ff96fb 37.5%, #ee8eff 50%, #d687ff 62.5%, #bb83ff 75%, #9b80ff 87.5%, #8690ff 100%);
@@ -34,7 +34,7 @@ header{
 
 #header-01{
     display: flex;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     margin:0;
     padding:0;
     background-image: linear-gradient(265deg, #ffb1efbd 0, #ffa8f3bf 12.5%, #ff9ff7b5 25%, #ff96fba8 37.5%, #ee8effb0 50%, #d687ffad 62.5%, #bb83ffa6 75%, #9b80ffa3 87.5%, #8690ff96 100%);
@@ -48,7 +48,7 @@ header{
     width:20%px;
     height: 110px;
     /*padding-left: 30px;*/
-    border: solid 2px green;
+    /*border: solid 2px green;*/
     
 }
 
@@ -93,7 +93,7 @@ nav a{
 nav li{
     transition: all 0.4s block;
     display:inline-block;
-    width:210px;
+    width:415px;
     height:40px;
     padding:10px 10px;
     padding-right: 0px;
@@ -116,7 +116,8 @@ nav li:hover{
     }
           
 nav li>ul{
-    border: solid 2px green;
+    /*border: solid 2px green;*/
+    height: 0%;
     padding: 0px;
   margin:0;
   display:none;
@@ -137,8 +138,9 @@ nav img{
 }
 
 nav > ul{
-    border: solid 2px green;
-    
+    /*border: solid 2px green;*/
+    width: 0px;
+    height: 0px;
 margin:0;
 padding: 0;
 
@@ -287,6 +289,7 @@ padding: 0;
 
 .movie img{
     width:100%;
+    height: 55%;
 }
 
 .movie-info{
@@ -328,7 +331,7 @@ padding: 0;
     bottom:0;
     background-color: rgb(186, 135, 252);
     padding: 1rem;
-    max-height: 100%;
+    max-height: 110%;
     transform:translateY(101%);
     transition:transform 0.3s ease-in;
 }
@@ -341,7 +344,7 @@ padding: 0;
 
   .pieDePagina {
     display: flex;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     margin-top: 100px;
     padding: 0px;
     background-color: #C4A0DB;
@@ -351,7 +354,7 @@ padding: 0;
 
   #pieDePaginaBy04 {
     display: flex;
-    border: solid 2px red;
+    /*border: solid 2px red;*/
     padding: 0px;
     background-color: #C4A0DB;
     font-family: 'Oswald', sans-serif;
@@ -364,7 +367,7 @@ padding: 0;
     padding:0;
     width:380px;
     height: 240px;
-    border: solid 2px green;
+    /*border: solid 2px green;*/
     
 }
 
@@ -374,7 +377,7 @@ padding: 0;
     padding:0;
     width:380px;
     height: 240px;
-    border: solid 2px green;
+    /*border: solid 2px green;*/
     
 }
 
@@ -408,7 +411,7 @@ footer{
 }
 
 .footer_content{
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     grid-column-start: 1;
     grid-column-end: span 12;
     grid-template-columns: 1fr;
